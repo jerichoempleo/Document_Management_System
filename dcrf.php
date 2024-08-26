@@ -6,7 +6,7 @@
 
     /* if(!isset($user_id)){
       header('location:login.php');
-    }; */
+    }; aaaaaaaaaaa*/
     
     $select_user = mysqli_query($conn, "SELECT * FROM `reg_form` WHERE Reg_ID = '$user_id'") or die('query failed');
     if(mysqli_num_rows($select_user) > 0){
